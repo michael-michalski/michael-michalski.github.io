@@ -1,0 +1,46 @@
+Jeg er fasciliterende.
+
+Antler.Core
+Multi purpose c library
+* Date and time
+* FileSystem
+* Logging
+* Multithreading structures
+* Regular expressions
+* Unicode handling
+
+Antler.Gui
+* Xaml'ish
+
+Inspection
+* Cross Platform native debugging.
+
+aewatch
+* Background runner with a trayicon interface.
+
+Open Source
+
+aemake (fork of premake)
+* Configurable build generator with strong defaults for the following.
+  
+  * Android, Emscripten, Linux, IOS, MacOS, Windows.
+  * Visual Studio, Makefiles & XCode.
+
+aerc
+* C style resource compiler. Fairly usefull.
+
+entry
+* Hot reloading of dynamic libraries. Fairly useless.
+
+cel-lang
+* A dual input scripting language, with plugin based code generation.
+
+### Very good conversation topics
+* C 
+* C++
+
+### Also good conversation topics 
+* F#
+* Qt
+* Git
+* Objective C

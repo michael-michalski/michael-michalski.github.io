@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Quicksand-Regular";
+  src: url('../fonts/Quicksand-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "UniSansThinCAPS";
+  src: url('../fonts/Uni-Sans-Thin.otf');
+  font-weight: normal;
+  font-style: normal;
+}
