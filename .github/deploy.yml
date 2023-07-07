@@ -2,7 +2,7 @@ name: Deploy
 
 on:
   push:
-    branches: [ 'main' ]
+    branches: [ 'master' ]
 
 jobs:
   deploy:
@@ -10,8 +10,6 @@ jobs:
       contents: write
 
     runs-on: ubuntu-latest
-    env:
-      ruby-version: 2.6
 
     steps:
     - uses: actions/checkout@v2
