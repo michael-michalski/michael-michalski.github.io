@@ -1,0 +1,26 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ 'master' ]
+
+jobs:
+  deploy:
+    permissions:
+      contents: write
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Branch name
+      run: echo running on branch ${GITHUB_REF##*/}
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./
+        destination_dir: v1.0.0
+        keep_files: true
